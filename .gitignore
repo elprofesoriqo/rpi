@@ -8,5 +8,5 @@
 *.synctex.gz
 *.toc
 *.vrb
-latex/*.pdf
+docs/latex/*.pdf
 tmp/
