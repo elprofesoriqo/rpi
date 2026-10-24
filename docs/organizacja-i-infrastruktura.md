@@ -80,6 +80,8 @@ Zespół powinien użyć już dostępnego komunikatora, np. Teams albo Discord. 
 - **Przeznaczenie:** kod aplikacji, materiały projektowe oraz historia zmian w Git.
 - **Widoczność:** publiczna.
 
+Adres repozytorium jest podany w raporcie i README. Zrzut ekranu strony repozytorium z widocznym zespołem nie został dołączony.
+
 Pracujemy na gałęzi `main`. Zadania wykonujemy na krótkich gałęziach `feature/...`, `fix/...` albo `docs/...`, a ukończone zmiany łączymy z `main` po sprawdzeniu. Dostęp współpracownikom GitHub należy nadać po potwierdzeniu ich loginów. Nie dopasowano kont na podstawie samych nazwisk.
 
 Repozytorium nie zawiera jeszcze kodu aplikacji ani konfiguracji jej budowania. Dlatego nie deklaruje się działającego CI ani zautomatyzowanych testów.
@@ -88,7 +90,7 @@ Repozytorium nie zawiera jeszcze kodu aplikacji ani konfiguracji jej budowania. 
 
 Dokumenty projektu przechowujemy w katalogu `docs/` w tym samym repozytorium co kod. Dzięki temu są dostępne zespołowi razem z historią zmian.
 
-Obowiązuje nazewnictwo `rpi_YYYY-MM-DD_topic_vNN.md`. Osoba utrzymująca repozytorium pilnuje nazw, aktualności odnośników i tego, aby dokumenty nie dublowały się. Każdy raport powinien zaczynać się od metryki projektu i dokumentu zgodnej z [szablonem projektu](szablon-dokumentu-projektu.md).
+Używamy krótkich nazw z małych liter i łączników, np. `organizacja-i-infrastruktura.md`. Wersję zapisujemy w metryce dokumentu, a historię zmian przechowuje Git. Osoba utrzymująca repozytorium pilnuje nazw, aktualności odnośników i tego, aby dokumenty nie dublowały się. Każdy raport powinien zaczynać się od metryki projektu i dokumentu zgodnej z [szablonem projektu](szablon-dokumentu-projektu.md).
 
 ## 7. Narzędzia
 
@@ -118,3 +120,7 @@ AI przyspiesza przygotowanie struktury i tekstu, ale nie potwierdza faktów o um
 ## Podstawa
 
 Opis zadania „Organizacja i infrastruktura projektu”, Realizacja projektu informatycznego 2026/2027, przekazany plik PDF.
+
+---
+
+RankIt | RPI-RANKIT-ORG-001 | v1.0 | 2026-10-24

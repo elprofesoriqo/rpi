@@ -58,7 +58,7 @@ Raport i prezentacja są w Markdown, więc można je czytać i edytować bezpoś
 
 - Metryka zawiera projekt, identyfikator dokumentu, wersję, datę, autorów i status.
 - Dokument zaczyna się od strony tytułowej, ma historię zmian i sekcje z opisowymi nagłówkami.
-- Nazwy plików: `rpi_YYYY-MM-DD_topic_vNN.md`.
+- Nazwy plików są krótkie, wersję dokumentu zapisujemy w jego metryce.
 - Kolory projektu: granat `#243B53` i turkus `#2CB1BC`.
 
 ---

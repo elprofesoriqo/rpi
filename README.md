@@ -19,6 +19,6 @@ RankIt to aplikacja webowa do tworzenia rankingów i oceniania różnych rzeczy.
 - Kod i dokumenty projektu przechowujemy w tym repozytorium.
 - Zadania zapisujemy w GitHub Issues. Używamy krótkich gałęzi, np. `feature/ranking-form` albo `docs/project-report`.
 - Po sprawdzeniu zmian łączymy je z `main`. Przy pracy jednej osoby autor przegląda własny diff przed połączeniem.
-- Dokumenty przedmiotu zapisujemy w `docs/` i nazywamy `rpi_YYYY-MM-DD_temat_vNN.md`.
+- Dokumenty przedmiotu zapisujemy w `docs/`, używamy krótkich nazw z małych liter i łączników, a wersje śledzimy w metryce i historii Git.
 
 Repozytorium zawiera obecnie dokumenty organizacyjne projektu. Kod aplikacji i jej stos technologiczny nie zostały jeszcze przekazane.
