@@ -8,8 +8,6 @@ RankIt to aplikacja webowa do tworzenia rankingów i oceniania różnych rzeczy.
 - [Piotr Ratkowski](https://github.com/PitereQ767) (`@PitereQ767`)
 - [Zachariasz Słupski](https://github.com/Zacharay) (`@Zacharay`)
 
-Zaproszenia GitHub dla `@PitereQ767` i `@Zacharay` oczekują na akceptację.
-
 ## Pliki do oddania
 
 - Raport: [PDF](output/pdf/organizacja-i-infrastruktura.pdf) | [źródło LaTeX](latex/organizacja-i-infrastruktura.tex)
