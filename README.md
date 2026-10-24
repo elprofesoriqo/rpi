@@ -15,7 +15,7 @@ RankIt to aplikacja webowa do tworzenia rankingów i oceniania różnych rzeczy.
 - Prezentacja repozytorium i szablonu: [PDF](docs/output/pdf/prezentacja-repozytorium-i-szablonu.pdf) | [źródło LaTeX](docs/latex/prezentacja-repozytorium-i-szablonu.tex)
 - Szablon dokumentu: [PDF](docs/output/pdf/szablon-dokumentu-projektu.pdf) | [źródło LaTeX](docs/latex/szablon-dokumentu-projektu.tex)
 
-Wspólny styl LaTeX jest w [`docs/latex/rankit.sty`](docs/latex/rankit.sty). Zrzut grupy Messenger użyty w raporcie znajduje się w [`docs/assets/messenger-team.jpg`](docs/assets/messenger-team.jpg).
+Wspólny styl LaTeX jest w [`docs/latex/rankit.sty`](docs/latex/rankit.sty). Zrzut składu zespołu RankIt w Messengerze użyty w raporcie znajduje się w [`docs/assets/rankit-team-messenger.png`](docs/assets/rankit-team-messenger.png).
 
 ## Repozytorium
 
