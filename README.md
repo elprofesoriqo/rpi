@@ -1,0 +1,24 @@
+# RankIt
+
+RankIt to aplikacja webowa do tworzenia rankingów i oceniania różnych rzeczy. Projekt jest przygotowywany w ramach przedmiotu Realizacja Projektu Informatycznego 2026/2027.
+
+## Zespół
+
+- Igor Jankowski
+- Piotr Ratkowski
+- Zachariasz Słupski
+
+## Dokumenty projektu
+
+- [Organizacja i infrastruktura projektu](docs/organizacja-i-infrastruktura.md)
+- [Szablon dokumentu projektu](docs/szablon-dokumentu-projektu.md)
+- [Prezentacja repozytorium i szablonu](docs/prezentacja-repozytorium-i-szablonu.md)
+
+## Zasady współpracy
+
+- Kod i dokumenty projektu przechowujemy w tym repozytorium.
+- Zadania zapisujemy w GitHub Issues. Używamy krótkich gałęzi, np. `feature/ranking-form` albo `docs/project-report`.
+- Po sprawdzeniu zmian łączymy je z `main`. Przy pracy jednej osoby autor przegląda własny diff przed połączeniem.
+- Dokumenty przedmiotu zapisujemy w `docs/` i nazywamy `rpi_YYYY-MM-DD_temat_vNN.md`.
+
+Repozytorium zawiera obecnie dokumenty organizacyjne projektu. Kod aplikacji i jej stos technologiczny nie zostały jeszcze przekazane.
