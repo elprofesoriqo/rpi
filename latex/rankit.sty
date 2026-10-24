@@ -1,0 +1,28 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{rankit}[2026/10/24 RankIt project style]
+
+\RequirePackage[utf8]{inputenc}
+\RequirePackage[T1]{fontenc}
+\RequirePackage[polish]{babel}
+\RequirePackage{lmodern}
+\RequirePackage{xcolor}
+\RequirePackage{graphicx}
+\RequirePackage{booktabs}
+\RequirePackage{tabularx}
+\RequirePackage{array}
+\RequirePackage{hyperref}
+
+\definecolor{RankItNavy}{HTML}{243B53}
+\definecolor{RankItTeal}{HTML}{2CB1BC}
+\definecolor{RankItInk}{HTML}{24313C}
+\definecolor{RankItPale}{HTML}{EAF5F5}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=RankItNavy,
+  urlcolor=RankItTeal,
+  citecolor=RankItNavy,
+  pdfencoding=auto
+}
+
+\newcommand{\RankItWordmark}{\textcolor{RankItNavy}{\textbf{Rank}}\textcolor{RankItTeal}{\textbf{It}}}

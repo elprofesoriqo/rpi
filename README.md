@@ -1,6 +1,6 @@
 # RankIt
 
-RankIt to aplikacja webowa do tworzenia rankingów i oceniania różnych rzeczy. Projekt jest przygotowywany w ramach przedmiotu Realizacja Projektu Informatycznego 2026/2027.
+RankIt to aplikacja webowa do tworzenia rankingów i oceniania różnych rzeczy. Materiały przygotowano na przedmiot Realizacja Projektu Informatycznego 2026/2027.
 
 ## Zespół
 
@@ -8,19 +8,20 @@ RankIt to aplikacja webowa do tworzenia rankingów i oceniania różnych rzeczy.
 - [Piotr Ratkowski](https://github.com/PitereQ767) (`@PitereQ767`)
 - [Zachariasz Słupski](https://github.com/Zacharay) (`@Zacharay`)
 
-Zaproszenia do współpracy dla `@PitereQ767` i `@Zacharay` oczekują na akceptację.
+Zaproszenia GitHub dla `@PitereQ767` i `@Zacharay` oczekują na akceptację.
 
-## Dokumenty projektu
+## Pliki do oddania
 
-- [Organizacja i infrastruktura projektu](docs/organizacja-i-infrastruktura.md)
-- [Szablon dokumentu projektu](docs/szablon-dokumentu-projektu.md)
-- [Prezentacja repozytorium i szablonu](docs/prezentacja-repozytorium-i-szablonu.md)
+- Raport: [PDF](output/pdf/organizacja-i-infrastruktura.pdf) | [źródło LaTeX](latex/organizacja-i-infrastruktura.tex)
+- Prezentacja repozytorium i szablonu: [PDF](output/pdf/prezentacja-repozytorium-i-szablonu.pdf) | [źródło LaTeX](latex/prezentacja-repozytorium-i-szablonu.tex)
+- Szablon dokumentu: [PDF](output/pdf/szablon-dokumentu-projektu.pdf) | [źródło LaTeX](latex/szablon-dokumentu-projektu.tex)
 
-## Zasady współpracy
+Wspólny styl LaTeX jest w [`latex/rankit.sty`](latex/rankit.sty). Zrzut grupy Messenger użyty w raporcie znajduje się w [`assets/messenger-team.jpg`](assets/messenger-team.jpg).
 
-- Kod i dokumenty projektu przechowujemy w tym repozytorium.
-- Zadania zapisujemy w GitHub Issues. Używamy krótkich gałęzi, np. `feature/ranking-form` albo `docs/project-report`.
-- Po sprawdzeniu zmian łączymy je z `main`. Przy pracy jednej osoby autor przegląda własny diff przed połączeniem.
-- Dokumenty przedmiotu zapisujemy w `docs/`, używamy krótkich nazw z małych liter i łączników, a wersje śledzimy w metryce i historii Git.
+## Repozytorium
 
-Repozytorium zawiera obecnie dokumenty organizacyjne projektu. Kod aplikacji i jej stos technologiczny nie zostały jeszcze przekazane.
+Git i GitHub przechowują źródła LaTeX, dokumenty PDF i historię zmian. Kod aplikacji oraz jej stos technologiczny nie zostały jeszcze dodane.
+
+## Pliki PDF
+
+PDF-y zostały skompilowane z dołączonych źródeł LaTeX w MiKTeX i znajdują się w `output/pdf/`. Raport i prezentację kompiluje się dwukrotnie, aby odświeżyć spis treści i numerację slajdów.

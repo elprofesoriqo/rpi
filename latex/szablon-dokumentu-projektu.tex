@@ -1,0 +1,80 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{rankit}
+\usepackage[margin=2.4cm,headheight=16pt]{geometry}
+\usepackage{fancyhdr}
+\usepackage{microtype}
+\usepackage{enumitem}
+
+% Uzupełnij metrykę przed przygotowaniem nowego dokumentu.
+\newcommand{\DocTitle}{[Tytuł dokumentu]}
+\newcommand{\DocId}{[RPI-RANKIT-TYP-NNN]}
+\newcommand{\DocVersion}{[1.0]}
+\newcommand{\DocDate}{[RRRR-MM-DD]}
+\newcommand{\DocAuthors}{[Imiona i nazwiska autorów]}
+\newcommand{\DocStatus}{[Roboczy / do przeglądu / zatwierdzony]}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\RankItWordmark\quad\small RPI 2026/2027}
+\fancyhead[R]{\small \DocId}
+\fancyfoot[C]{\small \DocId\quad|\quad v\DocVersion\quad|\quad\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+\setlist{nosep,leftmargin=*}
+
+\hypersetup{pdftitle={Szablon dokumentu projektu RankIt},pdfauthor={Zespół RankIt}}
+
+\begin{document}
+\begin{titlepage}
+  \centering
+  \vspace*{2cm}
+  {\Huge\RankItWordmark\par}
+  \vspace{0.8cm}
+  {\Large Realizacja Projektu Informatycznego 2026/2027\par}
+  \vspace{1.8cm}
+  {\huge\bfseries\color{RankItNavy}\DocTitle\par}
+  \vspace{0.6cm}
+  {\color{RankItTeal}\rule{0.72\textwidth}{1.5pt}\par}
+  \vspace{1.2cm}
+  \begin{tabular}{rl}
+    \textbf{Projekt:} & RankIt - aplikacja webowa do tworzenia rankingów \\
+    \textbf{Identyfikator:} & \DocId \\
+    \textbf{Wersja:} & \DocVersion \\
+    \textbf{Data:} & \DocDate \\
+    \textbf{Autorzy:} & \DocAuthors \\
+    \textbf{Status:} & \DocStatus \\
+    \textbf{Opiekun:} & [Imię i nazwisko] \\
+  \end{tabular}
+  \vfill
+  {\small\url{https://github.com/elprofesoriqo/rpi}\par}
+\end{titlepage}
+\setcounter{page}{2}
+
+\section{Historia zmian}
+\begin{tabularx}{\textwidth}{p{0.14\textwidth}p{0.2\textwidth}p{0.25\textwidth}X}
+  \toprule
+  \textbf{Wersja} & \textbf{Data} & \textbf{Autor} & \textbf{Opis zmiany} \\
+  \midrule
+  1.0 & [RRRR-MM-DD] & [Autor] & Utworzenie dokumentu. \\
+  \bottomrule
+\end{tabularx}
+
+\section{Cel i zakres}
+Opisz, po co powstał dokument, do kogo jest skierowany i jakie informacje lub decyzje zawiera.
+
+\section{Treść}
+Podziel treść na krótkie sekcje z opisowymi nagłówkami. Oddziel fakty od planów i założeń. Przy każdej ważnej decyzji podaj właściciela albo źródło.
+
+\section{Wnioski i dalsze kroki}
+\begin{itemize}
+  \item \emph{[Decyzja lub wniosek]}
+  \item \emph{[Osoba odpowiedzialna i termin]}
+\end{itemize}
+
+\section{Źródła}
+\begin{itemize}
+  \item \emph{[Nazwa i adres źródła albo ścieżka do dokumentu]}
+\end{itemize}
+
+\end{document}

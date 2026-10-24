@@ -1,0 +1,175 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{rankit}
+\usepackage[margin=2.25cm,headheight=16pt]{geometry}
+\usepackage{fancyhdr}
+\usepackage{microtype}
+\usepackage{caption}
+\usepackage{enumitem}
+\usepackage{lastpage}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\RankItWordmark\quad\small RPI 2026/2027}
+\fancyhead[R]{\small Organizacja projektu}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.45em}
+\setlist{nosep,leftmargin=*}
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}
+
+\hypersetup{
+  pdftitle={Organizacja i infrastruktura projektu RankIt},
+  pdfauthor={Igor Jankowski, Piotr Ratkowski, Zachariasz Słupski}
+}
+
+\begin{document}
+
+\begin{titlepage}
+  \centering
+  \vspace*{2.2cm}
+  {\Huge\RankItWordmark\par}
+  \vspace{0.7cm}
+  {\Large Realizacja Projektu Informatycznego 2026/2027\par}
+  \vspace{1.7cm}
+  {\huge\bfseries\color{RankItNavy}Organizacja i infrastruktura projektu\par}
+  \vspace{0.45cm}
+  {\LARGE RankIt\par}
+  \vspace{0.8cm}
+  {\color{RankItTeal}\rule{0.72\textwidth}{1.5pt}\par}
+  \vspace{1.3cm}
+  \begin{tabular}{rl}
+    \textbf{Identyfikator:} & RPI-RANKIT-ORG-001 \\
+    \textbf{Wersja:} & 1.0 \\
+    \textbf{Data:} & 24 października 2026 \\
+    \textbf{Autorzy:} & Igor Jankowski, Piotr Ratkowski, Zachariasz Słupski \\
+  \end{tabular}
+  \vfill
+  {\large\textcolor{RankItNavy}{Repozytorium:} \url{https://github.com/elprofesoriqo/rpi}\par}
+\end{titlepage}
+
+\pagenumbering{Roman}
+\tableofcontents
+\clearpage
+\pagenumbering{arabic}
+\setcounter{page}{2}
+
+\section*{Cel dokumentu}
+\addcontentsline{toc}{section}{Cel dokumentu}
+Dokument opisuje organizację projektu RankIt, sposób współpracy oraz miejsce przechowywania kodu i dokumentacji. Repozytorium GitHub jest wspólnym punktem dostępu do materiałów projektu. Proponowany podział obowiązków i rytm komunikacji zostały odróżnione od informacji potwierdzonych przez zespół.
+
+\section{Opis projektu i produktu}
+\subsection{Cel i problem}
+RankIt to aplikacja webowa do tworzenia rankingów i oceniania różnych rzeczy. Ma zebrać propozycje i oceny w jednym miejscu oraz ułatwić porównywanie wyników. Projekt odpowiada na potrzebę prostego, wspólnego sposobu oceniania pomysłów, miejsc, produktów lub innych pozycji.
+
+\subsection{Obszar zastosowania i odbiorcy}
+Obszarem zastosowania jest grupowe porównywanie propozycji. Planowanymi odbiorcami są pojedynczy użytkownicy i małe grupy. To wstępne określenie rynku; zespół nie przeprowadził badań rynku ani nie przyjął modelu płatności.
+
+\subsection{Proponowany zakres pierwszej wersji}
+Użytkownik powinien móc utworzyć ranking, dodać do niego oceniane pozycje, przyznać im oceny i zobaczyć uporządkowane wyniki. Szczegóły, takie jak skala ocen, logowanie, współdzielenie rankingu i zasady edycji, zespół powinien ustalić przed implementacją.
+
+Poza pierwszą wersją proponuje się pozostawić płatności, rekomendacje, powiadomienia i integracje z zewnętrznymi serwisami. Ogranicza to zakres do funkcji potrzebnych na demonstrację projektu.
+
+\subsection{Ograniczenia, systemy i terminy}
+Projekt jest realizowany w roku akademickim 2026/2027. Dokładny termin oddania nie został podany w opisie zadania. Nie wskazano systemów, z którymi aplikacja ma się integrować. Technologia aplikacji nie została jeszcze określona.
+
+\begin{enumerate}
+  \item Uzgodnienie wymagań i podziału obowiązków.
+  \item Przygotowanie szkicu widoków i decyzja o modelu oceniania.
+  \item Implementacja tworzenia rankingu i wystawiania ocen.
+  \item Sprawdzenie scenariusza na przykładowych rankingach.
+  \item Przygotowanie demonstracji i końcowych materiałów.
+\end{enumerate}
+Daty etapów należy dopasować do harmonogramu przedmiotu.
+
+\section{Interesariusze i użytkownicy}
+\begin{tabularx}{\textwidth}{p{0.29\textwidth}L}
+  \toprule
+  \textbf{Interesariusz} & \textbf{Rola i potrzeba} \\
+  \midrule
+  Zespół projektowy & Uzgadnia wymagania, buduje aplikację i przygotowuje dokumentację. Skład: Igor Jankowski, Piotr Ratkowski i Zachariasz Słupski. \\
+  Opiekun przedmiotu & Ocenia zgodność projektu z wymaganiami RPI i udziela wskazówek. Nazwisko nie zostało przekazane. \\
+  Twórcy rankingów & Przygotowują tematy i pozycje do oceny. \\
+  Oceniający i odbiorcy & Wystawiają oceny lub korzystają z uporządkowanych wyników. \\
+  \bottomrule
+\end{tabularx}
+
+\section{Zespół}
+Skład zespołu: \textbf{Igor Jankowski, Piotr Ratkowski i Zachariasz Słupski}. Zrzut ekranu przekazany przez zespół pokazuje trzy osoby w grupie Messenger: Piotra Ratkowskiego (\texttt{@piotr.ratkowski.12}), Zachariasza Słupskiego oraz Igora Jankowskiego (\texttt{@igor.jankowski.585}, administratora grupy).
+
+\begin{tabularx}{\textwidth}{p{0.28\textwidth}L}
+  \toprule
+  \textbf{Osoba} & \textbf{Proponowany obszar odpowiedzialności} \\
+  \midrule
+  Igor Jankowski & Koordynacja, utrzymanie repozytorium, dokumentacja i integracja zmian. \\
+  Piotr Ratkowski & Projekt widoków i prace nad interfejsem użytkownika. \\
+  Zachariasz Słupski & Logika rankingów, model danych i sprawdzanie scenariuszy. \\
+  \bottomrule
+\end{tabularx}
+
+Podział jest propozycją organizacyjną. Opisuje zadania projektowe, a nie potwierdzony poziom wcześniejszych umiejętności poszczególnych osób.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[height=0.72\textheight,keepaspectratio]{../assets/messenger-team.jpg}
+  \caption{Skład grupy projektowej w Messengerze. Zrzut przekazany przez zespół.}
+\end{figure}
+
+\section{Komunikacja w zespole i z interesariuszami}
+Messenger jest kanałem bieżącej komunikacji zespołu. GitHub Issues służą do zapisywania zadań i decyzji, aby ustalenia dotyczące kodu pozostały przy repozytorium. Większe zmiany przechodzą przez Pull Request, a autor sprawdza podgląd różnic przed połączeniem.
+
+Proponowany rytm pracy to krótkie, cotygodniowe spotkanie online trwające około 15 minut. Pytania do opiekuna zespół kieruje kanałem wskazanym przez prowadzącego przedmiot. Nie podano jeszcze nazwiska opiekuna ani terminów spotkań.
+
+\section{Repozytorium kodu}
+\begin{itemize}
+  \item Adres: \url{https://github.com/elprofesoriqo/rpi}
+  \item Właściciel i osoba utrzymująca repozytorium: Igor Jankowski (\texttt{@elprofesoriqo}).
+  \item Widoczność: publiczna.
+  \item Główna gałąź: \texttt{main}; zadania realizujemy na krótkich gałęziach \texttt{feature/...}, \texttt{fix/...} lub \texttt{docs/...}.
+\end{itemize}
+
+Zaproszenia do zapisu dla Piotra Ratkowskiego (\href{https://github.com/PitereQ767}{\texttt{@PitereQ767}}) i Zachariasza Słupskiego (\href{https://github.com/Zacharay}{\texttt{@Zacharay}}) oczekują na akceptację. Do czasu przyjęcia zaproszeń właściciel jest jedynym aktywnym współpracownikiem repozytorium.
+
+Repozytorium zawiera dokumenty organizacyjne. Kod aplikacji i konfiguracja budowania nie zostały jeszcze dodane, dlatego nie deklarujemy działającego CI ani zautomatyzowanych testów.
+
+\section{Dokumentacja i szablon dokumentów}
+Kod i dokumentację przechowujemy w jednym publicznym repozytorium GitHub. Pliki źródłowe dokumentów są w katalogu \texttt{latex/}, a skompilowane pliki PDF w \texttt{output/pdf/}. Obowiązuje schemat krótkich nazw z małych liter i łączników; wersję dokumentu zapisujemy w metryce, a historię zmian przechowuje Git.
+
+Szablon projektu zawiera stronę tytułową, identyfikator, wersję, datę, autorów, historię zmian i miejsce na źródła. Stosuje granat \texttt{\#243B53} i turkus \texttt{\#2CB1BC}. Za porządek w dokumentacji odpowiada Igor Jankowski jako opiekun repozytorium.
+
+\section{Narzędzia}
+\begin{tabularx}{\textwidth}{p{0.31\textwidth}L}
+  \toprule
+  \textbf{Obszar} & \textbf{Narzędzie i zastosowanie} \\
+  \midrule
+  Kod i wersjonowanie & Git oraz GitHub. \\
+  Zadania i przegląd zmian & GitHub Issues i Pull Requests. \\
+  Komunikacja & Messenger; cotygodniowe spotkanie online jest proponowanym rytmem pracy. \\
+  Dokumentacja & LaTeX w katalogu \texttt{latex/}, PDF w katalogu \texttt{output/pdf/}. \\
+  Tworzenie aplikacji & Stos technologiczny i narzędzia budowania wymagają decyzji zespołu. \\
+  \bottomrule
+\end{tabularx}
+
+Na tym etapie nie dokładamy tablicy, CI ani dodatkowych usług, dopóki zespół nie ustali technologii i potrzeby.
+
+\section{Wykorzystanie AI i wnioski}
+AI wykorzystano do odczytania wymagań zadania, przygotowania układu raportu, zaproponowania prostych zasad repozytorium i redakcji pierwszej wersji dokumentów. Przykładowe polecenie z tej pracy: \emph{Przygotuj prostą dokumentację organizacji i infrastruktury projektu; aplikacja to RankIt do tworzenia rankingów i oceniania.} Wynikiem były: raport, wzór dokumentu, prezentacja oraz źródła LaTeX.
+
+AI przyspieszyło przygotowanie struktury i tekstu, ale nie może potwierdzić umiejętności zespołu, terminów spotkań, nazwiska opiekuna ani wymagań aplikacji, których zespół nie podał. Członkowie projektu powinni sprawdzić propozycje przed oddaniem. Zespół dostarczył skład i rzeczywisty zrzut z komunikatora.
+
+\subsection*{Informacje do potwierdzenia}
+\begin{itemize}
+  \item nazwisko opiekuna i termin oddania;
+  \item podział obowiązków zgodny z umiejętnościami członków;
+  \item skala ocen, logowanie i zasady udostępniania rankingów;
+  \item akceptacja zaproszeń GitHub przez pozostałych członków.
+\end{itemize}
+
+\section*{Podstawa opracowania}
+\addcontentsline{toc}{section}{Podstawa opracowania}
+Opis zadania \emph{Organizacja i infrastruktura projektu}, Realizacja projektu informatycznego 2026/2027.
+
+\vfill
+\begin{center}\small RankIt | RPI-RANKIT-ORG-001 | v1.0 | 24.10.2026\end{center}
+\end{document}
