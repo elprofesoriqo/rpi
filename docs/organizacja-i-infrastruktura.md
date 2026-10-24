@@ -50,7 +50,7 @@ Daty etapów należy dopasować do harmonogramu przedmiotu.
 
 ## 3. Zespół
 
-Skład zespołu podany przez autorów projektu: **Igor Jankowski, Piotr Ratkowski i Zachariasz Słupski**. Repozytorium należy do konta `elprofesoriqo`, którego publiczna nazwa profilu to Igor Jankowski. W chwili przygotowania dokumentu GitHub pokazywał konto właściciela jako jedynego współpracownika repozytorium. Nazwisk członków projektu nie potraktowano jako ich loginów GitHub.
+Skład zespołu podany przez autorów projektu: **Igor Jankowski, Piotr Ratkowski i Zachariasz Słupski**. Repozytorium należy do konta `elprofesoriqo`, którego publiczna nazwa profilu to Igor Jankowski. Loginy pozostałych członków zostały potwierdzone przez zespół: [Piotr Ratkowski](https://github.com/PitereQ767) (`@PitereQ767`) i [Zachariasz Słupski](https://github.com/Zacharay) (`@Zacharay`). Na dzień 2026-10-24 zaproszenia z dostępem do zapisu oczekują na akceptację; do tego czasu listę współpracowników repozytorium tworzy samo konto właściciela.
 
 Poniższy podział jest propozycją odpowiedzialności na potrzeby małego projektu. Nie opisuje wcześniejszego poziomu umiejętności poszczególnych osób.
 
@@ -82,7 +82,7 @@ Zespół powinien użyć już dostępnego komunikatora, np. Teams albo Discord. 
 
 Adres repozytorium jest podany w raporcie i README. Zrzut ekranu strony repozytorium z widocznym zespołem nie został dołączony.
 
-Pracujemy na gałęzi `main`. Zadania wykonujemy na krótkich gałęziach `feature/...`, `fix/...` albo `docs/...`, a ukończone zmiany łączymy z `main` po sprawdzeniu. Dostęp współpracownikom GitHub należy nadać po potwierdzeniu ich loginów. Nie dopasowano kont na podstawie samych nazwisk.
+Pracujemy na gałęzi `main`. Zadania wykonujemy na krótkich gałęziach `feature/...`, `fix/...` albo `docs/...`, a ukończone zmiany łączymy z `main` po sprawdzeniu. Zaproszenia do repozytorium dla potwierdzonych kont `@PitereQ767` i `@Zacharay` zostały wysłane i oczekują na akceptację.
 
 Repozytorium nie zawiera jeszcze kodu aplikacji ani konfiguracji jej budowania. Dlatego nie deklaruje się działającego CI ani zautomatyzowanych testów.
 

@@ -23,11 +23,11 @@ Repozytorium: github.com/elprofesoriqo/rpi
 
 ## Zespół
 
-- Igor Jankowski
-- Piotr Ratkowski
-- Zachariasz Słupski
+- Igor Jankowski (`@elprofesoriqo`)
+- Piotr Ratkowski (`@PitereQ767`)
+- Zachariasz Słupski (`@Zacharay`)
 
-Zakresy odpowiedzialności proponuje raport organizacyjny. Są to zadania projektowe, nie deklaracja wcześniejszych kompetencji.
+Zaproszenia dla `@PitereQ767` i `@Zacharay` oczekują na akceptację. Zakresy odpowiedzialności proponuje raport organizacyjny. Są to zadania projektowe, nie deklaracja wcześniejszych kompetencji.
 
 ---
 

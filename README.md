@@ -4,9 +4,11 @@ RankIt to aplikacja webowa do tworzenia rankingów i oceniania różnych rzeczy.
 
 ## Zespół
 
-- Igor Jankowski
-- Piotr Ratkowski
-- Zachariasz Słupski
+- Igor Jankowski (`@elprofesoriqo`)
+- [Piotr Ratkowski](https://github.com/PitereQ767) (`@PitereQ767`)
+- [Zachariasz Słupski](https://github.com/Zacharay) (`@Zacharay`)
+
+Zaproszenia do współpracy dla `@PitereQ767` i `@Zacharay` oczekują na akceptację.
 
 ## Dokumenty projektu
 
