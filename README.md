@@ -9,11 +9,12 @@ RankIt to aplikacja webowa do tworzenia rankingów i oceniania różnych rzeczy.
 - Zachariasz Słupski
 - Tymon Jezionek
 
-## Pliki do oddania
+## Jeden plik do wysłania
 
-- Raport: [PDF](docs/output/pdf/organizacja-i-infrastruktura.pdf) | [źródło LaTeX](docs/latex/organizacja-i-infrastruktura.tex)
-- Prezentacja repozytorium i szablonu: [PDF](docs/output/pdf/prezentacja-repozytorium-i-szablonu.pdf) | [źródło LaTeX](docs/latex/prezentacja-repozytorium-i-szablonu.tex)
-- Szablon dokumentu: [PDF](docs/output/pdf/szablon-dokumentu-projektu.pdf) | [źródło LaTeX](docs/latex/szablon-dokumentu-projektu.tex)
+- Do wysłania: [pakiet PDF](docs/output/pdf/pakiet-do-oddania.pdf).
+- Pakiet zawiera raport, prezentację repozytorium i szablonu oraz gotowy szablon dokumentu.
+
+Źródła LaTeX: [raport](docs/latex/organizacja-i-infrastruktura.tex), [prezentacja](docs/latex/prezentacja-repozytorium-i-szablonu.tex), [szablon](docs/latex/szablon-dokumentu-projektu.tex) i [źródło pakietu](docs/latex/pakiet-do-oddania.tex).
 
 Wspólny styl LaTeX jest w [`docs/latex/rankit.sty`](docs/latex/rankit.sty). Zrzut składu zespołu RankIt w Messengerze użyty w raporcie znajduje się w [`docs/assets/rankit-team-messenger.png`](docs/assets/rankit-team-messenger.png).
 
@@ -23,4 +24,4 @@ Git i GitHub przechowują źródła LaTeX, dokumenty PDF i historię zmian. Kod 
 
 ## Pliki PDF
 
-PDF-y zostały skompilowane z dołączonych źródeł LaTeX w MiKTeX i znajdują się w `docs/output/pdf/`. Raport i prezentację kompiluje się dwukrotnie, aby odświeżyć spis treści i numerację slajdów.
+PDF-y zostały skompilowane ze źródeł LaTeX w MiKTeX i znajdują się w `docs/output/pdf/`. Raport i prezentację kompiluje się dwukrotnie, aby odświeżyć spis treści i numerację slajdów. Pakiet PDF łączy raport, prezentację i szablon w jeden plik do przesłania.
